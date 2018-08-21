@@ -32,8 +32,10 @@ And then execute:
 
 ## Usage
 
-RemoteClient::Client.get('<url>')
-RemoteClient::Client.post('<post_url>', <data>)
-RemoteClient::Client.put('<put_url>', <data>)
-RemoteClient::Client.delete('<delete_url>', <data>)
+RemoteClient::Client.get('<get_url>')
+RemoteClient::Client.post('<post_url>', '<data>')
+RemoteClient::Client.put('<put_url>', '<data>')
+RemoteClient::Client.delete('<delete_url>', '<data>')
+    
+Note : <data> is hash data type with key value pair.
 
