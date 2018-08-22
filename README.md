@@ -2,8 +2,8 @@
 
 ### Prerequisites:
 
-Install stable RVM
-Installed ruby version 2.3.5
+* Install stable RVM
+* Installed ruby version 2.3.5
 
 ## Installation
 
