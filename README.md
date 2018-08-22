@@ -1,5 +1,7 @@
 # RemoteClient
 
+You can find the gem implementation codebase in the lib/request_client directory.
+
 ### Prerequisites:
 
 * Install stable RVM
