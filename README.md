@@ -1,8 +1,9 @@
 # RemoteClient
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/remote_client`. To experiment with that code, run `bin/console` for an interactive prompt.
+### Prerequisites:
 
-TODO: Delete this and the text above, and describe your gem
+Install stable RVM
+Installed ruby version 2.3.5
 
 ## Installation
 
