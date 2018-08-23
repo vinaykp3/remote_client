@@ -1,5 +1,6 @@
-require "remote_client/version"
+require 'remote_client/client'
+require 'remote_client/request'
 
 module RemoteClient
-  # Your code goes here...
+  
 end

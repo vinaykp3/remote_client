@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vinay KP"]
   spec.email         = ["vinay.kp@jifflenow.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = 'Remote Client'
+  spec.description   = 'Remote Client'
+  spec.homepage      = "http://localhost:3000"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -30,9 +30,12 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files = ["lib/remote_client/client.rb", "lib/remote_client/request.rb", "lib/remote_client.rb"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency 'pry', '~> 0.10'
+  spec.add_development_dependency 'pry-byebug', '~> 3.4'
 end
